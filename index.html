@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<!--Css link-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Bootstrap CDN-->
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  
+</head>
+<body>
+	<!--First section-->
+	<!--Header-->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" style="background: black;"> 
+				<h1 id="head">Header of the page..</h1>
+			</div>
+		</div>
+		<div class="row" id="r2">
+			<div class="col-sm-8" align="center" >
+			 	<label id="gen_st">General Studies.</label>
+			</div>
+			<div class="col-sm-4">
+				<label>Exams</label>
+				<select name="course" id="slct">
+					<option value="ssc">SSC</option>
+					<option value="jee">JEE</option>
+					<option value="cat">CAT</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<!--carousel cards-->
+	<div class="container-fluid" style="margin-top: 50px;">
+		<div id="myslideshow" class="carousel slide carousel-multi-item" data-ride="carousel">
+			<div class="carousel-inner">
+				<!--first slide-->
+				<div class="carousel-item active">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of first slide-->
+				<!--second slide-->
+				<div class="carousel-item">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of second slide-->	
+				</div>
+				<a href="#myslideshow" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a href="#myslideshow" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>	
+			</div>
+		</div>
+	</div>	
+	<!--end of first section-->
+
+	<!--2nd section-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<label id="gen_st">English</label>
+			</div>
+		</div>
+	</div>
+
+		<!--carousel cards-->
+	<div class="container-fluid" style="margin-top: 50px;">
+		<div id="myslideshow2" class="carousel slide carousel-multi-item" data-ride="carousel">
+			<div class="carousel-inner">
+				<!--first slide-->
+				<div class="carousel-item active">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of first slide-->
+				<!--second slide-->
+				<div class="carousel-item">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of second slide-->	
+				</div>
+				<a href="#myslideshow2" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a href="#myslideshow2" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>	
+			</div>
+		</div>
+	</div>	
+	<!--end of second section-->
+
+	<!--3rd Section-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<label id="gen_st">Logical Reasoning</label>
+			</div>
+		</div>
+	</div>
+
+		<!--carousel cards-->
+	<div class="container-fluid" style="margin-top: 50px;">
+		<div id="myslideshow3" class="carousel slide carousel-multi-item" data-ride="carousel">
+			<div class="carousel-inner">
+				<!--first slide-->
+				<div class="carousel-item active">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/1.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of first slide-->
+				<!--second slide-->
+				<div class="carousel-item">
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 1</h2>
+								<p class="card-tetx">This is subject 1</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 2</h2>
+								<p class="card-tetx">This is subject 2</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 3</h2>
+								<p class="card-tetx">This is subject 3</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3" style="float: left;">
+						<div class="card">
+							<img class="card-img-top" src="assets/gallery/2.jpg">
+							<div class="card-body">
+								<h2 class="card-tittle">Subject 4</h2>
+								<p class="card-tetx">This is subject 4</p>
+								<a href="#" class="btn btn-primary">Show Subject</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--ENd of second slide-->	
+				</div>
+				<a href="#myslideshow3" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a href="#myslideshow3" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>	
+			</div>
+		</div>
+	</div>	
+	<!--end of 3ed section-->
+</body>
+</html>

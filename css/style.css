@@ -1,0 +1,27 @@
+.{
+	margin: 0px;
+	padding: 0px;
+}
+
+#head{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background: black;
+
+}
+
+#r2{
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+#gen_st{
+	font-size: 26px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#slct{
+	width: 40%;
+}
